@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Cryptoleminar/AnteHit-SMC/issues"
   },
-  "homepage": "https://github.com/Cryptoleminar/AnteHit-SMC#readme"
+  "homepage": "https://github.com/Cryptoleminar/AnteHit-SMC#readme",
+  "devDependencies": {
+    "hardhat": "^2.10.1"
+  }
 }
