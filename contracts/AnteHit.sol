@@ -15,6 +15,10 @@ contract AnteHit {
       address player;
       PlayerType playerType;
    }
+
+   PlayerInfo player1v2;
+   PlayerInfo player2v2;
+
     event GameStarted(); // 錢都進來了。
     event GameFinished(); 
     // 前端 call 
