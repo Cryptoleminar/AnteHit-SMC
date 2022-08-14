@@ -4,6 +4,12 @@ contract AnteHit {
     address public player1;
     address public player2;
     uint256 public betAmount = 1;
+    enum PlayerType {
+        win,
+        lose,
+        euqal,
+        wait
+    }
 
     event GameStarted(); // 錢都進來了。
     event GameFinished(); 
