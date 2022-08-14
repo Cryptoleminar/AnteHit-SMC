@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.15;
+
+/// 目前是先朝著一次性使用合約，走完一次完整的 Happy Path 後再另行優化
 contract AnteHit {
     address public player1;
     address public player2;
