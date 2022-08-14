@@ -41,7 +41,7 @@ contract AnteHit {
 
     // 後端呼叫來通知遊戲結束
     // 並且發送一個 event 以利後續查詢等等
-    function gameFinished(address winer, address loser) admin {
+    function gameFinished(address winer, address loser) public {
         // TODO: 需要實作寫入 winner loser
         emit GameFinished();
     } 
