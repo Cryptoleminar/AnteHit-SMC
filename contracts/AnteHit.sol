@@ -29,6 +29,7 @@ contract AnteHit {
     function joinGame() public payable {
         require(msg.value == betAmount, "Wrong bet amount.");
         require(player2.length == 0, "Game has already started.");
+        require(gameIsFinished == false, "Game is Finishing.");
         if (player1.length == 0) {
             player1 = msg.sender;
         } else {
