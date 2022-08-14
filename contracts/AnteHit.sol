@@ -11,6 +11,10 @@ contract AnteHit {
         wait
     }
 
+    struct PlayerInfo {
+      address player;
+      PlayerType playerType;
+   }
     event GameStarted(); // 錢都進來了。
     event GameFinished(); 
     // 前端 call 
